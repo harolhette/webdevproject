@@ -11,11 +11,11 @@
             <table width="25%" border="0">
                 <tr>
                     <td>Subject Code</td>
-                    <td><input type="text" name="subject_code"></td>
+                    <td><input type="text" name="code"></td>
                 </tr>
                 <tr>
                     <td>Subject Name</td>
-                    <td><input type="text" name="subject_name"></td>
+                    <td><input type="text" name="name"></td>
                 </tr>
                 <tr>
                     <td></td>
