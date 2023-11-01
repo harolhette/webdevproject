@@ -1,9 +1,9 @@
 <?php
-    DEFINE('AdvancedDatabase', 'root');
-    DEFINE('Padayonka', 'root');
-    DEFINE('tonetrolet', 'localhost');
-    DEFINE('dbschedule', 'db');
+    DEFINE('DB_USER', 'root');
+    DEFINE('DB_PASSWORD', '');
+    DEFINE('DB_HOST', 'localhost');
+    DEFINE('DB_NAME', 'db');
 
-    $dbc = @mysqli_connect(tonetrolet, AdvancedDatabase, Padayonka, dbschedule)
-    OR dies('Could not connect to MySQL: ' . mysql_connect_error());
+    $dbc = @mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME)
+    OR die('Could not connect to MySQL: ' . mysql_connect_error());
 ?>
