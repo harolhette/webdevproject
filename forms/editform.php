@@ -23,14 +23,14 @@
             <table border="0">
                 <tr>
                     <td>Subject Code</td>
-                    <td><input type="text" name="code" value="<?php echo $code;?>"></td>
+                    <td><input type="text" name="subject_code" value="<?php echo $code;?>"></td>
                 </tr>
                 <tr>
                     <td>Subject Name</td>
-                    <td><input type="text" name="name" value="<?php echo $name;?>"></td>
+                    <td><input type="text" name="subject_name" value="<?php echo $name;?>"></td>
                 </tr>
                 <tr>
-                    <td><input type="hidden" name="id" value="<?php echo $_GET['id'];?>"></td>
+                    <td><input type="hidden" name="subject_id" value="<?php echo $_GET['id'];?>"></td>
                     <td><input type="submit" name="update" value="Update"></td>
                 </tr>
             </table>
