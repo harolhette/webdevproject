@@ -1,5 +1,5 @@
 <?php
     //fetching data
-    $query = "SELECT * FROM tblsubject";
-    $result = mysqli_query($dbc, $qurey); //using mysqli_query
+    $query = "SELECT * FROM tblsubjects";
+    $result = mysqli_query($dbc, $query); //using mysqli_query
 ?>
