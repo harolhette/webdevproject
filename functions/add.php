@@ -9,8 +9,8 @@
         include_once("../dbConnection/mysqlconfig_connection.php");
 
         if(isset($_POST['Submit'])) {
-            $code = $_POST['code'];
-            $name = $_POST['name'];
+            $code = $_POST['subject_code'];
+            $name = $_POST['subject_name'];
             //checking empty fields
             if(empty($code) || empty($name)) {
                 if(empty($code)) {
@@ -25,7 +25,7 @@
             else {
                 //if all the fields are filled (not empty)
                 //insert data to database
-                $result = mysqli_query($dbc, "INSERT INTO tblsubjectS(subject_code, subject_name) VALUES ('$code','$name')");
+                $result = mysqli_query($dbc, "INSERT INTO tblsubjects(subject_code, subject_name) VALUES ('$code','$name')");
                 //display success message
                 echo "<font color='green'>Data added successfully.";
                 echo "<br/><a href='../index.php'>View Result</a>";
