@@ -8,7 +8,7 @@
         <a href="../index.php">Home</a>
         <br/><br/>
         <form action="../functions/add.php" method="post" name="form1">
-            <table width="25%" border="0">
+            <table width="25%" style="border: 1px solid black;">
                 <tr>
                     <td>Subject Code</td>
                     <td><input type="text" name="code"></td>
