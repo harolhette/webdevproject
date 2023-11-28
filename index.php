@@ -19,6 +19,9 @@
                 <th style="border: 1px solid black;">ID</td>
                 <th style="border: 1px solid black;">Subject Code</th>
                 <th style="border: 1px solid black;">Subject Name</th>
+                <th style="border: 1px solid black;">Syllabus ID</th>
+                <th style="border: 1px solid black;">Syllabus Code</th>
+                <th style="border: 1px solid black;">Syllabus Author</th>
                 <th style="border: 1px solid black;">Action</th>
             </tr>
             <?php 
@@ -27,6 +30,9 @@
                     echo "<td style='border: 1px solid black; text-align:center;'>" .$res["subject_id"]. "</td>";
                     echo "<td style='border: 1px solid black; text-align:center;'>" .$res["subject_code"]."</td>";
                     echo "<td style='border: 1px solid black; text-align:center;'>" .$res["subject_name"]."</td>";
+                    echo "<td style='border: 1px solid black; text-align:center;'>" .$res["syllabus_id"]."</td>";
+                    echo "<td style='border: 1px solid black; text-align:center;'>" .$res["syllabus_code"]."</td>";
+                    echo "<td style='border: 1px solid black; text-align:center;'>" .$res["syllabus_author"]."</td>";
                     echo "<td style='border: 1px solid black; text-align:center;'> 
                             <a href=\"forms/editform.php?id=$res[subject_id]\">Edit</a> | 
                             <a href=\"functions/delete.php?id=$res[subject_id]\"
