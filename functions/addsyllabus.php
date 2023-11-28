@@ -22,7 +22,7 @@
                     echo "<br/><a href='javascript:self.history.back();'>Go Back</a>";
                 }
                 else {
-                    $result = mysqlli_query($dbc, "<<UPDATE SQL QUERY");
+                    $result = mysqli_query($dbc, "<<UPDATE SQL QUERY");
                     echo "<font color='green'>Data added successfully.</font>";
                     echo "<br/><a href='../index.php>View Result</a>'";
                 }
