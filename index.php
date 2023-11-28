@@ -14,6 +14,7 @@
     <body>
         <h1>My Subjects</h1>
         <a href="forms/addform.php">Add Subject</a><br/><br/>
+        <a href="forms/addsyllabusform.php">Add Syllabus</a><br/><br/>
         <table width="100%" style="border: 1px solid black;">
             <tr>
                 <th style="border: 1px solid black;">ID</td>
