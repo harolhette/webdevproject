@@ -22,9 +22,9 @@
                     echo "<br/><a href='javascript:self.history.back();'>Go Back</a>";
                 }
                 else {
-                    $result = mysqli_query($dbc, "INSERT INTO tblsyllabus(syllabus_code, syllabus_author) VALUES('$code', '$author')");
+                    $result = mysqli_query($dbc, "INSERT INTO tblsyllabus(syllabus_code, syllabus_author, subject_id) VALUES ('$code', '$author', '$subject')");
                     echo "<font color='green'>Data added successfully.</font>";
-                    echo "<br/><a href='../index.php>View Result</a>'";
+                    echo "<br/><a href='../index.php'>View Result</a>";
                 }
             }
 
