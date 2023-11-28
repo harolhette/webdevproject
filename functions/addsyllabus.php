@@ -22,7 +22,7 @@
                     echo "<br/><a href='javascript:self.history.back();'>Go Back</a>";
                 }
                 else {
-                    $result = mysqli_query($dbc, "<<UPDATE SQL QUERY");
+                    $result = mysqli_query($dbc, "INSERT INTO tblsyllabus(syllabus_code, syllabus_author) VALUES('$code', '$author')");
                     echo "<font color='green'>Data added successfully.</font>";
                     echo "<br/><a href='../index.php>View Result</a>'";
                 }
