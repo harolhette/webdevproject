@@ -2,6 +2,7 @@
     <head>
         <title> Add Syllabus </title>
     </head>
+        <body>
         <?php
 
             include_once("../dbConnection/mysqlconfig_connecton.php");
@@ -28,5 +29,5 @@
             }
 
         ?>
-        
+        </body>
 </html>
