@@ -5,7 +5,7 @@
         <body>
         <?php
 
-            include_once("../dbConnection/mysqlconfig_connecton.php");
+            include_once(".../dbConnection/mysqlconfig_connection.php");
             
             if(isset($_POST['Submit'])){
                 $code = $_POST['code'];
